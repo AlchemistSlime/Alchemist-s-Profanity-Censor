@@ -1,0 +1,11 @@
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# Идеи для разработки (IntelliJ IDEA)
+.idea/
+*.iml
+*.log

@@ -1,0 +1,26 @@
+name: AlchemistsProfanityCensor
+prefix: APC
+version: '${version}'
+description: Chat censor filter
+
+main: com.AlchemistSlime.profanitycensor.profanitycensor
+api-version: '1.21'
+folia-supported: true
+load: POSTWORLD
+
+authors: [ Alchemist Slime ]
+
+commands:
+  profanitycensor:
+    description: Управление Alchemist's Profanity Censor
+    usage: /<command> reload
+    aliases: [ apc ]
+    permission: profanitycensor.admin
+
+permissions:
+  profanitycensor.admin:
+    description: Перезагрузка настроек плагина
+    default: op
+  profanitycensor.bypass:
+    description: Сообщения этого игрока не цензурируются
+    default: false
